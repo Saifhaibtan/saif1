@@ -1,0 +1,810 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+  
+}
+.h1forhead{
+    text-align: center;
+    background-color: rgb(80, 40, 1);
+    color: white;
+    margin-top: 0px;
+    padding: 20px 0px;
+}
+header {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(80, 40, 1);
+    margin: 0px;
+    padding: 0px;
+
+}
+#navbartper{
+    padding: 0px;
+    margin: 0px;
+}
+#navbartper .col {
+    text-align: center;
+    padding-top: 10px;
+  
+
+
+
+}
+
+#navbartper .col a{
+    margin: 5px;
+    padding: 5px 8px;
+
+    color: white;
+
+}
+
+#navbartper .col .head-top-icon:hover {
+
+    margin: 5px;
+    padding: 5px 7px;
+    border: 1px white solid;
+    border-radius: 50%;
+    color: white;
+
+    box-shadow: 0px 0px 5px white;
+
+
+}
+
+#navbartper .col .head-top-loc:hover {
+
+    margin: 5px;
+    padding: 5px 7px;
+    border: 1px white solid;
+    border-radius: 50%;
+    color: white;
+
+    box-shadow: 0px 0px 5px white;
+
+
+}
+
+.head-top-maps {
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-left: 100px;
+    display: none;
+    position: absolute;
+    border: 2px white solid;
+    box-shadow: 0px 0px 5px rgb(255, 254, 254);
+    z-index: 99999;
+
+}
+
+.logo {
+    width: 280px;
+
+
+
+}
+.navigationbar{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigationbar .col {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.navigationbar .col .searchinput {
+    background-color: transparent;
+    width: 300px;
+    border: 2px rgba(255, 255, 255, 0.625) solid;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.navigationbar .col .searchicon {
+
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 25px;
+    color: rgb(255, 254, 251);
+}
+
+.register {
+    position: absolute;
+    margin-left: 200px;
+    background-color: rgb(102, 51, 0);
+    height: 80px;
+    width: 100px;
+    display: none;
+    z-index: 99999;
+
+
+}
+#admin{
+    display: none;
+}
+
+.register div {
+
+    color: white;
+    height: 40px;
+    z-index: 999999;
+
+
+}
+
+.register div:hover {
+
+    color: white;
+    height: 40px;
+    background-color: rgb(80, 40, 1);
+    z-index: 999999;
+
+
+}
+
+.register div a {
+    color: white;
+    text-decoration: none;
+
+
+
+
+
+}
+
+.navigationbar #last-col-top-icon {
+    margin-top: 40px;
+
+
+
+}
+
+.navigationbar #last-col-top-icon .head-top-icon {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+
+
+
+}
+
+.navbuttom {
+    height: 42px;
+    background-color: rgb(80, 40, 1);
+
+}
+
+.navbuttom ul {
+    text-align: center;
+    padding-top: 10px
+}
+
+.navbuttom ul li {
+    display: inline-block;
+
+}
+
+.navbuttom ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(176, 90, 90, 0);
+    margin: 20px;
+    padding: 11px;
+
+}
+.active{
+    background-image: url(images/GGG.gif);
+    background-size: 100px;
+    text-shadow: 0px 0px 5px rgb(5, 5, 5);
+}
+.navbuttom ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(176, 90, 90, 0);
+    margin: 20px;
+    padding: 11px;
+    background-image: url(images/GGG.gif);
+    background-size: 100px;
+    text-shadow: 0px 0px 5px rgb(5, 5, 5);
+
+}
+.chairTableMenu{
+    background-color: #fff;
+    width: 90%;
+  
+    
+    box-shadow: 0px 5px 10px rgb(80, 40, 1);
+    position: absolute;
+    z-index: 999999;
+    margin-top: 8px;
+    display: none;
+    text-align: center;
+    border: 2px black solid;
+    padding:2%;
+    margin: 1% 5%;
+    
+   
+}
+
+.chairTableMenu a{
+    text-decoration: none;
+    color: rgb(80, 40, 1);
+    font-size: 20px;
+   padding-bottom: 20px;
+  text-align: left;
+ 
+ 
+}
+.chairTableMenu a:hover{
+    text-decoration: none;
+    color: rgb(80, 40, 1);
+    font-size: 20px;
+   padding-bottom: 20px;
+  text-align: left;
+  border-bottom: 8px rgb(80, 40, 1) solid;
+ transition:0.3s ;
+
+ 
+ 
+ 
+}
+
+.chairTableMenu th{
+
+margin-top: 20px;
+width: 350px;
+  text-align: left;
+ 
+ 
+ 
+}
+.chairTableMenu .veiww{
+    border: solid rgb(80, 40, 1) 1px;
+padding: 10px;
+border-radius: 10px;
+margin: 20px;
+}
+.chairTableMenu img{
+   
+    height: 100px;
+   
+}
+.chairTableMenu .moreData{
+     display: none; 
+}
+
+section{
+    
+    padding-top: 15px;
+    margin: auto;
+width: 95%;
+
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card{
+    width: 280px;
+    height: 350px;
+    border: 1px solid gray;
+    background-color: #fff;
+    margin: 0px 8.5px 0px 10.5px;
+   
+    color: #fff;
+}
+.cardhead img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius:12px ;
+    border-top-right-radius: 12px;
+}
+.cardbody{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    background-color: rgb(80, 40, 1);
+    
+}
+.cardfooter{
+    padding-top: 8px;
+    text-align: center;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(80, 40, 1);
+}
+.cardfooter button{
+    background-color: #fff;
+ padding: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin-left:30px ;
+ margin-top: 3px;
+ border-radius: 7px;
+ border: 2px rgb(80, 40, 1) solid;
+ color:rgb(80, 40, 1) ;
+}
+.modal-body{
+    width: 200px;
+    height: 320px;
+}
+.modal-body img{
+    margin-left: 140px;
+    width: 180px;
+    height: 200px;
+}
+.close-navbar{
+    display: none;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(102, 51, 0);
+    z-index: 9999;
+
+    margin: 0px;
+}
+
+.stickybuttom {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(80, 40, 1);
+    z-index: 999;
+    box-shadow: 0px 5px 5px rgb(44, 22, 1);
+    margin: 0px;
+}
+
+.home-main-slide {
+    width: 95%;
+    margin: auto;
+    height: 600px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+}
+
+.home-card-fst {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 60px;
+}
+
+.home-card-fst .card-1 {
+    width: 300px;
+    height: 500px;
+    border: 1px black solid;
+    text-align: center;
+    background-color: rgb(80, 40, 1);
+    color: white;
+}
+
+.home-card-fst .card-1 .card-head img {
+    width: 100%;
+    height: 200px;
+
+
+}
+
+.home-card-fst .card-1 .card-body {
+
+    height: 200px;
+    padding-top: 20px
+}
+
+.home-card-fst .card-1 .card-footer {
+
+    height: 100px;
+
+
+}
+
+.home-card-fst .card-1 .card-footer button {
+
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(80, 40, 1);
+    border-radius: 5px;
+    border: 1px solid rgb(80, 40, 1);
+
+
+}
+
+.home-card-fst .card-1 .card-footer button:hover {
+
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(80, 40, 1);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: 0.5s;
+
+
+}
+
+.footerheadimg {
+    width: 100%;
+    height: 150px;
+}
+
+.footerheadimg img {
+    width: 100%;
+    height: 150px;
+}
+
+.page-footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(80, 40, 1);
+    padding-top: 20px;
+}
+
+.page-footer .col {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-footer .col a {
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+
+}
+
+.page-footer .col a:hover {
+    text-align: center;
+    color: rgb(80, 40, 1);
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.page-footer .col form input,
+textarea {
+    text-align: center;
+    color: rgb(80, 40, 1);
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+.footer-map {
+    margin-top: 20px;
+    border-radius: 20px;
+    width:600px;
+     height:380px;
+}
+#bars{
+    display: none;
+}
+
+.adminlogin{
+    width: 100%;
+  
+ 
+   margin: auto;
+
+    background-color: rgb(80, 40, 1);
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.adminlogin input{
+   border: 2px white solid;
+    margin: auto;
+    display: block;
+  
+    padding: 10px;
+    background-color: rgb(80, 40, 1);
+    color: white;
+    border-radius: 10px;
+}
+.adminlogin label{
+    
+     margin: auto;
+    
+     text-align: center;
+
+   display: block;
+   
+     color: white;
+ 
+ }
+ .adminlogin h1{
+    
+    margin: auto;
+    display: block;
+    text-align: center;
+
+    padding: 30px;
+  
+    color: white;
+
+}
+.adminlogin button{
+    
+    margin: auto;
+    display: block;
+    text-align: center;
+
+    padding: 10px 30px;
+    margin:20px auto;
+    color: white;
+    background-color: rgb(80, 40, 1);
+    border: 2px white solid;
+    border-radius: 10px;
+
+}
+.adminlogin button:hover{
+    
+    margin: auto;
+    display: block;
+    text-align: center;
+
+    padding: 10px 30px;
+    margin:20px auto;
+    color: rgb(80, 40, 1);
+    background-color: white ;
+    border: 2px white solid;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.modal-body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#userdata,#adminout{
+    display:none;
+}
+@media screen and (max-width: 1022px) {
+    .home-card-fst {
+        display: grid;
+        grid-template-columns: auto auto ;
+        
+        height: auto;
+      width: 100%;
+    }
+    .home-card-fst .card-1 {
+        width: 300px;
+        height: 500px;
+        border: 1px black solid;
+        text-align: center;
+        background-color: rgb(80, 40, 1);
+        color: white;
+        margin:20px ;
+    }
+    .sticky {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: rgb(102, 51, 0);
+        z-index: 9999;
+    
+        margin: 0px;
+    }
+    
+ 
+    
+
+    #bars{
+        display: inline;
+    }
+ 
+   
+    .searchinput,.searchicon{
+        display: none;
+    }
+    
+    
+ #add-to-cart-icon{
+    display: none;
+ }
+
+ #register-drop{display: none;}
+ .navbuttom ul {
+    text-align: center;
+   
+}
+
+.navbuttom {
+    display: none;
+    position: relative;
+    z-index: 9999;
+    
+
+}
+
+.navbuttom ul li {
+    display: block;
+    width: 100%;
+    background-color: rgb(80, 40, 1);
+    
+
+}
+
+.navbuttom ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    z-index: 999;
+
+  
+    
+
+}
+.close-navbar{
+color: white;
+text-align: right;
+font-size: 25px;
+margin-right: 30px;
+    
+}
+.active{
+    background-image: url(images/GGG.gif);
+    background-size: 100px;
+    text-shadow: 0px 0px 5px rgb(5, 5, 5);
+}
+.navbuttom ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(176, 90, 90, 0);
+    margin: 20px;
+    padding: 11px;
+    background-image: url(images/GGG.gif);
+    background-size: 100px;
+    text-shadow: 0px 0px 5px rgb(5, 5, 5);
+
+}
+}
+@media screen and (max-width:768px) {
+    #bars{
+        display: inline;
+        float:none !important;
+        width: 100%;
+        padding: 0px !important;
+    }
+    header {
+        width: 100% !important;
+        height: 110px;
+        background-color: rgb(80, 40, 1);
+        margin: 0px !important;
+        padding: 0px !important;
+    
+    }
+    .footer-map {
+        margin-top: 20px;
+        border-radius: 20px;
+        width:300px;
+         height:200px;
+    }
+    .page-footer .col {
+        text-align:center;
+        margin-top: 20px;
+    }
+    .page-footer .col a {
+        text-align:left !important;
+        color: white;
+        margin: 20px;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bolder;
+        border-radius: 5px;
+        display: block;
+    
+    }
+    
+    .page-footer .col a:hover {
+        text-align: center;
+        color: rgb(80, 40, 1);
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bolder;
+        border-radius: 5px;
+        transition: 0.5s;
+        display: block;
+    
+    }
+    .home-card-fst {
+        display: grid;
+        grid-template-columns: auto ;
+        
+        height: auto;
+      width: 100%;
+    }
+    .home-card-fst .card-1 {
+        width: 300px;
+        height: 500px;
+        border: 1px black solid;
+        text-align: center;
+        background-color: rgb(80, 40, 1);
+        color: white;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .sticky {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: rgb(102, 51, 0);
+        z-index: 9999;
+    
+        margin: 0px;
+    }
+    .logo {
+        width: 200px;
+    
+    
+    
+    }
+    .head-top-maps{
+        display: none;
+    }
+    .home-main-slide {
+        width: 100%;
+        margin: auto;
+        height: 300px;
+    }
+    
+    .carousel-item {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 300px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .card{
+        width: 280px;
+        height: 350px;
+        border: 1px solid gray;
+        background-color: #fff;
+        margin:30px auto;
+       
+        color: #fff;
+    }
+
+    
+}
